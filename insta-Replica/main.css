@@ -1,0 +1,197 @@
+body{
+    background-color: #fafafa;
+}
+nav{
+    z-index: 20;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 77px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-bottom:rgba(0, 0, 0, 0.0975)
+}
+
+.left, .middle, .right {
+    display: inline-block;
+}
+.left{
+    padding-left: 13%;
+}
+.left i {
+    font-size: 35px;
+    display: inline-block;
+    border-right: 1px solid #262626;
+    padding-right: 15px;
+}
+.left h1{
+    position: relative;
+    bottom: 5px;
+    display: inline-block;
+    padding-left: 15px;
+    font-family: cursive;
+}
+.left h1,i:hover {
+    cursor: pointer;
+}
+.middle{
+    margin-left: 13%;
+    width: 215px;
+}
+.middle input{
+position: relative;
+bottom: 10px;
+width: 100%;
+height: 28px;
+text-align: center;
+border: 1px solid #dbdbdb;
+border-radius: 3px;
+font-size:14px; 
+
+}
+.middle span{
+    z-index: 5;
+    position: relative;
+    left: 72px;
+    top: 15px
+}
+.fa-search{
+    color: #999;
+    font-size: 12px;
+}
+.right {
+    margin-left: 15%;
+    width: 180px;
+
+}
+.right i{
+    margin: 0 15px;
+    font-size: 23px;
+    color: #999;
+}
+#user{
+    position: relative;
+    top: 140px;
+    height: 152px;
+    width: 80%;
+    margin: auto;
+}
+.pic{
+    margin-left: 7%;
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+}
+.info{
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    width: 50%;
+    
+    margin-left: 10%;
+}
+.r1 h1{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin: 0px;
+    margin-right: 5%;
+}
+.r1 button{
+    height: 30px;
+    padding: 0px 24px;
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    color: #262626;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    bottom: 5px;
+
+}
+.r1 button:hover{
+    cursor: pointer;
+}
+.fa-cog {
+    color: #262626;
+    margin-left: 3%;
+    font-size: 30px;
+
+}
+
+.r2 {
+    padding-top: 2%;
+}
+.r2 h5{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.r2 h5, a {
+    font-size: 17px;
+    color: #262626;
+    padding-right: 8%;
+    font-weight: 500;
+    font-family: sans-serif;
+
+}
+.r2 span{
+    font-weight: 600;
+    padding-right: 5px;
+
+}
+.r3 p {
+   font-size: 17px;
+   color: #262626;
+   font-weight: 400;
+   font-family: sans-serif;
+
+    
+}
+.r3 p span {
+   font-weight: 600;
+}
+
+#posts{
+position: relative;
+top: 182px;
+width: 80%;
+margin: auto;
+border-top: 1px solid rgb(239, 239, 239);
+
+}
+.head{
+    text-align: center;
+   
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.head h5{
+    display: inline-block;
+    margin-right: 5%;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    padding-top: 2%;
+} 
+.head h5:nth-child(1){
+    border-top: 1px solid #262626;
+}
+.head h5:nth-child(2), .head h5:nth-child(3) {
+    color: #999;
+}
+.posting {
+    width: 100%;
+    text-align: center;
+}
+.posting img{
+    height: 293px;
+    width: 293px;
+    margin: 1%;
+    
+}
